@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <!--Title to specify the project + a link to the stylesheet-->
+    <head>
+        <title>Odin Project: HTML & CSS</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <!--div to act as grid container-->
+    <div class="container">
+        <!--The nav also acts as a header in this case, so I didn't include a separate <header> section-->
+        <nav>
+            <ul>
+                <li><a href="https://about.google/intl/en/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+                <li style="float:right"><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <li style="float: right"><a href="https://www.mail.google.com">Gmail</a></li>
+            </ul>
+        </nav>
+
+        <section class="logo">
+            <img height="350px" src="https://lh5.googleusercontent.com/dzM0rsLSO8NFCX77qnY2UY2YqE0sOewSBwE1RdEPZDY-_Yk3Sbu4vBex5Q3FKIiH5nY6xW1H7NIdmOcvDvX41grReqSTo_6vh7wynfsdHo8OtoSx8jgLUXIH3t58-9YZjXXM2MUj">
+        </section>
+        <section class="search">
+            <form action="test">
+                <input type="text" name="search" class="searchbox"><br>
+                <input type="submit" value="Google Search" class="button">
+                <input type="submit" value="I'm Feeling Lucky" class="button">
+            </form>
+        </section>
+        <section class="text_message">
+            Google offered in: <a href="https://www.google.co.uk/setprefs?sig=0_zYcyuK8yQbZBpaJUGdsZZcVo0tM%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiysOO2ptjkAhXNtp4KHdRlDTkQ2ZgBCBA" style="color:blue">Francais</a>
+        </section>
+
+        <!--The footer contains 2 sections: 1 for displaying the country, and another for 
+            the footer nav-->
+        <section class="country">
+            Canada
+        </section>
+        <footer>
+            <ul>
+                <li><a href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.ca/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                <li style="float:right"><a href="https://www.google.ca/preferences?hl=en">Settings</a></li>
+                <li style="float: right"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                <li style="float:right"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+            </ul>                    
+        </footer>
+    </div>
+</html>
